@@ -5,7 +5,7 @@
     --color-hover: #404BBF;
     --background: #2E2F42;
     --background-color-team: #F4F4FD;
-    --color-logo-blue: #404BBF;
+    --color-logo-blue: #4d5ae5;
     --color-logo-black: #2E2F42;
     --color-logo-white: #F4F4FD;
     --btn-color: #4D5AE5;
@@ -16,7 +16,7 @@
     --background-filtr: #E7E9FC;
 }
 body {
-    font-family: 'Roboto', sans-serif; 
+    font-family: "Roboto", sans-serif; 
     color: #434455;
 }
 .link {
@@ -43,15 +43,6 @@ body {
     color: var(--color-logo-black);
     text-transform: uppercase;    
 } 
-.logo-white {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--color-logo-white);
-    text-transform: uppercase;
-}
 .header-link {
     font-weight: 500;
     font-size: 16px;
@@ -62,11 +53,9 @@ body {
 .header-link:hover, .header-link:focus {
     color: var(--color-hover);
 }
-
 .header-add {
     font-style: normal;
 }
-
 .header-contacts-link {
     font-style: normal;
     font-weight: 400;
@@ -91,7 +80,7 @@ body {
     color: var(--main-title-color);
 }
 .hero-btn {
-    font-family: "Roboto", sans-serift;
+    font-family: inherit;
     background: var(--btn-color);
     font-weight: 500;
     font-size: 16px;
@@ -105,7 +94,6 @@ body {
 .hero-btn:hover, .hero-btn:focus {
     background: var(--color-hover);    
 }
-
 /**!-------------------------ADVANT----------------------------!*/
 .advant-title {
     font-weight: 500;
@@ -135,8 +123,6 @@ body {
 .team-list {
     background-color: var(--background-color-team);
 }
-
-
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -170,6 +156,24 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-text-color);
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--color-logo-blue);
+    text-transform: uppercase; 
+}
+.logo-white {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--color-logo-white);
+    text-transform: uppercase;
 }
 /**!-------------------------PROJECTS----------------------------!*/
 .projects-btn {
